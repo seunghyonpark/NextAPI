@@ -20,6 +20,7 @@ export default async function handler(
   } catch (error: any) {
     return sendApiError(res, error);
   }
+  
 }
 
 // Create a new user account
