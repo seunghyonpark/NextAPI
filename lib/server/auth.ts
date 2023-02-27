@@ -25,7 +25,7 @@ export const createUserAccount = async (params: SignUpParams) => {
   });
 
   if (existingUser) {
-    throw new Error("An user with this email already exists.");
+    throw new Error("An user with this email already exists....");
   }
 
   // Create a user in our database
